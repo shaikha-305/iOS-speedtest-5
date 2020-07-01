@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="SzJ-75-vHJ">
             <objects>
-                <viewController id="a2x-8d-nIY" customClass="ViewController" customModule="learningIsFun" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="a2x-8d-nIY" customClass="ViewController" customModule="SpeedTest5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EiV-8C-WgD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,6 +25,7 @@
                                     <color key="titleColor" red="0.91434425119999996" green="0.24562284349999999" blue="0.21347567440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="red" destination="a2x-8d-nIY" eventType="touchUpInside" id="Pis-L0-tBn"/>
                                     <action selector="red:" destination="a2x-8d-nIY" eventType="touchUpInside" id="oIn-Eq-6Yr"/>
                                 </connections>
                             </button>
@@ -35,6 +36,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="BLUE"/>
                                 <connections>
+                                    <action selector="blue" destination="a2x-8d-nIY" eventType="touchUpInside" id="Md6-kZ-9Gz"/>
                                     <action selector="blue:" destination="a2x-8d-nIY" eventType="touchUpInside" id="Ons-b4-OeF"/>
                                 </connections>
                             </button>
@@ -47,6 +49,7 @@
                                     <color key="titleColor" red="0.1640625" green="1" blue="0.0068088107639999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="green" destination="a2x-8d-nIY" eventType="touchUpInside" id="xlX-ju-9hx"/>
                                     <action selector="green:" destination="a2x-8d-nIY" eventType="touchUpInside" id="5Vj-1h-mwv"/>
                                 </connections>
                             </button>
@@ -59,6 +62,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.37865867077464788" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="yellow" destination="a2x-8d-nIY" eventType="touchUpInside" id="z1E-Dv-CUh"/>
                                     <action selector="yellow:" destination="a2x-8d-nIY" eventType="touchUpInside" id="m09-mP-AzL"/>
                                 </connections>
                             </button>
